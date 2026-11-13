@@ -1,0 +1,18 @@
+{
+  "name": "blmcp",
+  "displayName": "Blender MCP (MCP_Blender_builder)",
+  "version": "1.0.2",
+  "description": "Lightweight MCP (Model Context Protocol) server and add-on for Blender from Blender Lab (projects.blender.org/lab/blender_mcp). Provides all 26 official tools for scene inspection, documentation lookup, viewport navigation, rendering, and Python execution.",
+  "logo": "assets/logo.png",
+  "author": {
+    "name": "Blender Lab",
+    "url": "https://projects.blender.org/lab/blender_mcp"
+  },
+  "homepage": "https://www.blender.org/lab/mcp-server/",
+  "repository": "https://projects.blender.org/lab/blender_mcp.git",
+  "suggestedPrompts": [
+    "使用 get_objects_summary 与 get_blendfile_summary_datablocks 检查当前 Blender 场景结构",
+    "使用 search_api_docs 或 search_manual_docs 检索 Blender 5.2 Python API 与用户手册文档",
+    "使用 get_screenshot_of_area_as_image 查看当前 VIEW_3D 视口画面"
+  ]
+}

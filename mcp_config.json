@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "mcp": {
+      "command": "/run/media/leo/2961D09F3688AA57/linux/mcp-blender-builder/.venv/bin/blender-mcp",
+      "args": [],
+      "env": {
+        "BLENDER_PATH": "/usr/local/bin/blender",
+        "BLENDER_MCP_HOST": "localhost",
+        "BLENDER_MCP_PORT": "9875"
+      }
+    }
+  }
+}
